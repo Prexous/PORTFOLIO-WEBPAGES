@@ -39,23 +39,23 @@ body {
 }
 /*for-section-text-start-here*/
 ::selection {
-    background: green; /* WebKit/Blink Browsers */
+    background: blue; /* WebKit/Blink Browsers */
     color: #fff;
 }
 ::-webkit-selection {
-    background-color: green;
+    background-color: blue;
     color: #fff;
 }
 ::-ms-selection {
-    background-color: green;
+    background-color: blue;
     color: #fff;
 }
 ::-o-selection {
-    background-color: green;
+    background-color: blue;
     color: #fff;
 }
 ::-moz-selection {
-    background-color: green;
+    background-color: blue;
     color: #fff;
 }
 /* ========================================================================
@@ -117,7 +117,7 @@ body {
 }
 #pre-status,
 .preload-placeholder {
-    background-image: url(../preloader.gif);
+    background-image: url(../blu\ loader.gif);
     background-position: center;
     background-repeat: no-repeat;
     height: 296px;
@@ -163,7 +163,7 @@ h6,
 }
 h1 {
     color: #fff;
-    font-size: 51px;
+    font-size: 26px;
     text-transform: uppercase;
 }
 h2 {
@@ -192,13 +192,13 @@ strong {
     font-weight: bolder;
 }
 span {
-    color: green;
+    color: blue;
 }
 .space {
     margin: 30px 0px;
 }
 .line {
-    border: 1px solid green;
+    border: 1px solid blue;
     width: 15%;
 }
 a:hover,
@@ -217,7 +217,7 @@ a.btn-down {
 }
 a.btn-down:hover {
     background: #fff;
-    color: green;
+    color: blue;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -226,15 +226,15 @@ a.btn-down:hover {
 a.btn-order {
     height: 50px;
     width: 50px;
-    color: green;
-    border: 2px solid green;
+    color: blue;
+    border: 2px solid blue;
     padding: 3% 5%;
     font-size: 15px;
     position: relative;
     top: 5px;
 }
 a.btn-order:hover {
-    background: green;
+    background: blue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -242,13 +242,13 @@ a.btn-order:hover {
     -webkit-transition: all 0.5s;
 }
 a.btn-send {
-    color: green;
-    border: 2px solid green;
+    color: blue;
+    border: 2px solid blue;
     padding: 2% 0%;
     font-size: 15px;
 }
 a.btn-send:hover {
-    background: green;
+    background: blue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -273,23 +273,30 @@ a.navbar-brand img {
     position: relative;
 }
 #menu ul.nav li a {
-    font-size: 15px;
-    color: #fff;
+    font-size: 18px;
+    color: blue;
+    font-weight: 700;
+    /* color: #fff; */
 }
 #menu .nav > li > a {
     background: none;
-    color: #fff;
+    /* color: #fff; */
 }
 #menu ul.nav li a:hover,
 #menu ul.nav li a.active {
-    color: green;
+    color: blue;
     transition: all 0.4s;
 }
 #menu .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: green;
+    color: blue;
     background: transparent;
+}
+
+.aboutmenu{
+    background-color: #000;
+    opacity: 80%;   
 }
 a.navbar-brand {
     padding: 0px;
@@ -357,7 +364,7 @@ ul.nav li.active a:before {
 }
 .home-carousel-left,
 .home-carousel-right {
-    background-color: green;
+    background-color: blue;
     color: #fff;
     font-size: 32px;
     height: 40px;
@@ -436,6 +443,34 @@ ul.nav li.active a:before {
 #about .heading {
     text-align: center;
 }
+.con>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0;
+    padding: 0;
+}
+.con>ul>li{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+.con>ul>li.active{
+    border-bottom: 3px solid blue;
+}
+.con>div{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    display: none;
+}
+.con>div.active{
+    display: block;
+}
+
 .heading h2 {
     font-family: 'helvetica_ce_55_romanregular';
 }
@@ -457,7 +492,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-    background: green;
+    background: blue;
     margin-top: 10px;
     padding: 1% 0%;
 }
@@ -496,13 +531,13 @@ ul.nav li.active a:before {
     text-align: center;
     width: 64px;
     border-radius: 100%;
-    color: green;
+    color: blue;
     border: 1px solid #d7d7d7;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
 }
 .media.service-box:hover .pull-left > i {
-    background: green;
+    background: blue;
     color: #fff;
     transform: rotateY(360deg);
     -moz-transform: rotate(360deg);
@@ -539,7 +574,7 @@ ul.nav li.active a:before {
     padding-right: 12px;
     font-size: 12px;
     font-weight: 600;
-    background: green;
+    background: blue;
 }
 .progress .progress-bar.six-sec-ease-in-out {
     -webkit-transition: width 2s ease-in-out;
@@ -566,7 +601,7 @@ ul.nav li.active a:before {
 #features .nav-tabs > li.active > a:hover,
 #features .nav-tabs > li.active > a:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid blue;
     background: #f8f8f8;
 }
 #features .nav-tabs > li > a {
@@ -587,7 +622,7 @@ ul.nav li.active a:before {
     font-size: 25px;
 }
 #features .nav-tabs > li.active > a i.fa {
-    color: green;
+    color: blue;
 }
 #features .nav-tabs > li > a:hover {
     border-color: transparent;
@@ -638,7 +673,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-    background: green;
+    background: blue;
     color: #fff;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -658,7 +693,7 @@ ul.nav li.active a:before {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: green transparent transparent transparent;
+    border-color: blue transparent transparent transparent;
 }
 #portfolio .portfolio-filter > li:first-child a {
     border-radius: 4px 0 0 4px;
@@ -695,7 +730,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-item:hover .portfolio-info i.fa {
     font-size: 30px;
-    color: green;
+    color: blue;
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
@@ -789,9 +824,9 @@ ul.nav li.active a:before {
     display: inline-block;
     width: 116px;
     height: 116px;
-    background-image: -moz-linear-gradient(90deg, green 0%, green 100%);
-    background-image: -webkit-linear-gradient(90deg, green 0%, green 100%);
-    background-image: -ms-linear-gradient(90deg, green 0%, green 100%);
+    background-image: -moz-linear-gradient(90deg, blue 0%, blue 100%);
+    background-image: -webkit-linear-gradient(90deg, blue 0%, blue 100%);
+    background-image: -ms-linear-gradient(90deg, blue 0%, blue 100%);
     color: #fff;
     border-radius: 100px;
     border: 5px solid #f6f6f6;
@@ -855,7 +890,7 @@ ul.nav li.active a:before {
     transition-duration: 0.3s;
 }
 .team-main-sec:hover h5 {
-    color: green;
+    color: blue;
 }
 .team-sec h5 {
     color: #555;
@@ -894,7 +929,7 @@ ul.nav li.active a:before {
     text-align: center;
 }
 #testimonials .owl-theme .owl-controls .owl-page span {
-    background: green;
+    background: blue;
 }
 .quote {
     position: relative;
@@ -964,7 +999,7 @@ ul.nav li.active a:before {
 }
 .blog-info h6:hover,
 .blog-info h5:hover {
-    color: green;
+    color: blue;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -990,7 +1025,7 @@ a.btn-blg {
     color: #666;
 }
 a.btn-blg:hover {
-    color: green;
+    color: blue;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -1063,7 +1098,7 @@ a.btn-blg:hover {
     color: #666;
 }
 .contact-sec-1 ul li a:hover {
-    color: green;
+    color: blue;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -1076,6 +1111,9 @@ label {
     float: left;
     margin: 0px 0px 20px 0px;
 }
+input{
+    border: 2px solid blue ;
+}
 .form-group {
     margin-bottom: 30px;
 }
@@ -1084,10 +1122,27 @@ textarea.form-control {
     resize: none;
 }
 .form-control {
-    border: 1px solid #ccc;
+    border: 2px solid blue;
     height: 35px;
     border-radius: 0;
     box-shadow: none;
+}
+.btn{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    border-radius: 6px;
+    border: 2px solid blue;
+    padding: 14px 50px;
+    margin: 20px auto;
+    margin-left: 0px;
+    width: fit-content;
+    transition: background 0.5s;
+}
+.btn:hover{
+background: blue;
+color: white;
 }
 /*Footer-stylesheets-include-here*/
 #footer {
@@ -1156,7 +1211,7 @@ textarea.form-control {
 
 /*Full-screen-menu-stylesheet-include-here*/
 .top-animate {
-    background: green !important;
+    background: blue !important;
     top: 13px !important;
     -webkit-transform: rotate(45deg);
     /* Chrome, Safari, Opera */
@@ -1166,7 +1221,7 @@ textarea.form-control {
     opacity: 0;
 }
 .bottom-animate {
-    background: green !important;
+    background: blue !important;
     top: 13px !important;
     -webkit-transform: rotate(-225deg);
     /* Chrome, Safari, Opera */
@@ -1190,7 +1245,7 @@ textarea.form-control {
     top: 21px;
 }
 .menui {
-    background: green;
+    background: blue;
     transition: 0.6s ease;
     transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
     margin-top: 10px;
@@ -1325,15 +1380,15 @@ textarea.form-control {
 a.btn-learn {
     height: 50px;
     width: 50px;
-    color: green;
-    border: 2px solid green;
+    color: blue;
+    border: 2px solid blue;
     padding: 1% 2%;
     font-size: 15px;
     position: relative;
     top: 40px;
 }
 a.btn-learn:hover {
-    background: green;
+    background: blue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
