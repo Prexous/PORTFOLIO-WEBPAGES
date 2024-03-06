@@ -1138,6 +1138,8 @@ textarea.form-control {
     margin: 20px auto;
     margin-left: 0px;
     width: fit-content;
+    background-color: #3b5998;
+    margin-bottom: 72px;
     transition: background 0.5s;
 }
 .btn:hover{
