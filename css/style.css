@@ -258,9 +258,10 @@ a.btn-send:hover {
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
     background: rgba(248, 248, 248, 0);
-    border: rgba(248, 248, 248, 0);
-    padding: 5px 5px;
-    margin: auto;
+    /* border: rgba(248, 248, 248, 0); */
+    padding: 15px;
+    /* margin: auto; 
+    margin-bottom: 200px;
 }
 a.navbar-brand img {
     position: relative;
@@ -270,13 +271,17 @@ a.navbar-brand img {
     position: absolute;
 }
 #menu .nav {
-    left: 25%;
+    /* left: 50%; */
+    display: flex;
     position: relative;
     background-color: #e3e5ec;
     margin-bottom: 100px;
+    padding: 2px 30px;
+    border: auto;
+    justify-content: space-around;
 }
 #menu ul.nav li a {
-    font-size: 18px;
+    font-size: 20px;
     color: blue;
     font-weight: 700;
     /* color: #fff; */
@@ -303,6 +308,7 @@ a.navbar-brand img {
 }
 a.navbar-brand {
     padding: 0px;
+    margin-top: 72px;
     margin-top: -3px;
 }
 ul.nav li.active a:before {
@@ -442,6 +448,7 @@ ul.nav li.active a:before {
 /*About-stylesheets-include-here*/
 #about {
     padding: 3% 0%;
+    padding-top: 80px;
 }
 #about .heading {
     text-align: center;
@@ -651,6 +658,7 @@ ul.nav li.active a:before {
     text-align: center;
     padding-left: 8px;
     padding-right: 4px;
+    padding-top: 80px;
 }
 #portfolio .portfolio-filter {
     list-style: none;
@@ -1067,7 +1075,8 @@ a.btn-blg:hover {
 /*Contact-stylesheets-include-here*/
 #contact {
     text-align: center;
-    padding: 3% 0% 0% 2%;
+    /* padding: 3% 0% 0% 2%; */
+    padding-top: 80px;
 }
 .contact-sec-1 {
     text-align: left;
